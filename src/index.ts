@@ -48,6 +48,6 @@ Bun.serve({
         return new Response(metrics, { headers: {'Content-Type': register.contentType } });
       }
     }
-    return new Response("Bun!");
+    return new Response("Try /metrics");
   },
 });
