@@ -1,0 +1,6 @@
+{
+  "dependencies": { "prom-client": "^15.1.0", "tplink-smarthome-api": "^5.0.0" },
+  "devDependencies": {
+    "@types/bun": "^1.0.4"
+  }
+}
