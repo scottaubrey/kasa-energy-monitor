@@ -1,4 +1,4 @@
-# energy_monitor
+# kasa-energy-monitor
 
 This small project bundles a bun runtime with the `tplink-smarthome-api` library to expose realtime power metrics of TP-Link Kasa power plug using `prom-client`.
 
@@ -12,7 +12,7 @@ or, run the same as a docker container:
 
 ```
 docker buildx build . -t energy_monitor
-docker run -e HOSTS="10.0.1.2,10.0.1.5" -p3000:3000 energy_monitor
+docker run -e HOSTS="10.0.1.2,10.0.1.5" -p3000:3000 energy-monitor
 ```
 
 Then visit `http://localhost:3000/metrics`
